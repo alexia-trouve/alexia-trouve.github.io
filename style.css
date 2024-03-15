@@ -380,12 +380,9 @@ h3{
 	top:-5rem;
 	left:5rem;
     }
-    .icons.wrapper{
-        flex-direction: row;
+    .icons .wrapper img{
+	width:40%;
     }
-	.icons a{
-		width:20%;
-	}
 	.contains{
 		gap:none;
 		justify-content:center;
