@@ -31,7 +31,7 @@ nav{
     z-index: 99;
 }
 .logo p{
-    font-size: 8rem;
+    font-size: 6rem;
     color:#DBC87E;
     font-family:'Dream Avenue';
     margin-left: 5rem;
@@ -43,7 +43,7 @@ nav{
     color:  #bac4b8;
     font-size: 1.8rem;
     font-weight: 400;
-    padding: 1.8rem 5rem;
+    padding: 2rem 3rem;
     border: 0.1rem solid #bac4b8;
     background-color: #000;
     border-radius: 2rem;
@@ -52,7 +52,7 @@ nav{
 .menu a:hover {
     background-color: #000;
     color: rgb(255, 255, 255,0.5);
-    border: 0.2rem solid rgb(255, 255, 255,0.5);
+    border: 0.1rem solid rgb(255, 255, 255,0.5);
 }
 
 /* ----MENU BURGER---- */
@@ -108,18 +108,17 @@ input[type=checkbox]:checked + label>span:last-of-type{
     order:0;
 }
 .hero-banner{
-    max-width: 120rem;
+    max-width: 100rem;
     height: 95vh;
     margin: auto;
     flex-direction: column;
     justify-content: center;
 }
 .hero-banner h1{
-    font-size: clamp(8rem, 30px + 10vw, 20rem);
+    font-size: clamp(8rem, 30px + 10vw, 15rem);
     color: #bac4b8;
     font-weight: 300;
-    line-height: 200px;
-    text-shadow: 1px 1px 1px  #bac4b8;
+    line-height: 15rem;
 }
 .smaller{
     font-size: clamp(3.6rem, 10px + 10vw, 4.2rem);
@@ -127,7 +126,6 @@ input[type=checkbox]:checked + label>span:last-of-type{
     font-weight: 300;
     line-height: 72px;
     margin-left: 8rem;
-    text-shadow: 1px 1px 1px #bac4b8;
 }
 /* ----A propos---- */
 
@@ -365,16 +363,22 @@ h3{
         border-radius: 50rem;
     }
     .img{
-        width:25rem;
-        height:25rem;
+        width:15rem;
+        height:15rem;
         background-color: #ff9060;
     }
     h2{
-        font-size: 5rem;
+        font-size: 6rem;
         text-shadow:none;
-        margin-bottom: 1rem;
+	top:-4.5rem;
+	left:-5rem;
     }
     .icons.wrapper{
         flex-direction: row;
     }
+	.contains{
+		flex-wrap:wrap;
+	}
+	.contains img{
+		width:40%;
 }
