@@ -31,7 +31,7 @@ nav{
     z-index: 99;
 }
 .logo p{
-    font-size: 10rem;
+    font-size: 5rem;
     color:#DBC87E;
     font-family:'Dream Avenue';
     margin-left: 5rem;
@@ -41,9 +41,9 @@ nav{
 }
 .menu a{
     color:  #bac4b8;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    padding: 3rem 7rem;
+    padding: 3rem 3.2rem;
     border: 0.2rem solid #bac4b8;
     background-color: #000;
     border-radius: 2rem;
@@ -115,18 +115,18 @@ input[type=checkbox]:checked + label>span:last-of-type{
     justify-content: center;
 }
 .hero-banner h1{
-    font-size: clamp(8rem, 30px + 10vw, 12rem);
+    font-size: clamp(4.2rem, 30px + 10vw, 7.2rem);
     color: #bac4b8;
     font-weight: 300;
     line-height: 200px;
     text-shadow: 1px 1px 1px  #bac4b8;
 }
 .smaller{
-    font-size: clamp(4.2rem, 10px + 10vw, 5.2rem);
+    font-size: clamp(3.6rem, 10px + 10vw, 4.2rem);
     color: #bac4b8;
     font-weight: 300;
-    line-height: 85px;
-    margin-left: 10rem;
+    line-height: 72px;
+    margin-left: 15rem;
     text-shadow: 1px 1px 1px #bac4b8;
 }
 /* ----A propos---- */
@@ -150,7 +150,7 @@ input[type=checkbox]:checked + label>span:last-of-type{
 h2{
     font-family: "SF Compact Rounded", serif;
     text-align: center;
-    font-size: 8rem;
+    font-size: 7.2rem;
     color: #ff9060;
     text-shadow: 10px 10px 10px black;
     margin-bottom: 2rem;
@@ -174,7 +174,7 @@ h2{
     font-weight: normal;
     width: 50%;
     font-size: 1.8rem;
-    line-height: 1.2;
+    line-height: 2.7rem;
     color: #bac4b8;
 }
 
@@ -252,19 +252,19 @@ h2{
 h3{
     font-size: 2.4rem;
     font-weight: 400;
-    line-height: 4.8rem;
+    line-height: 3.6rem;
     color: #bac4b8;
 }
 .title{
-    font-size: 3.2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     color:#bac4b8;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
 .text{
-    font-size: 2.4rem;
-    line-height: 4.2rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     font-weight: 400;
     color: #bac4b8;
 }
