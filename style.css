@@ -355,6 +355,7 @@ h3{
     .wrapper{
         flex-direction: column;
         gap:4rem;
+	    padding:5rem;
     }
 	.wrapper img{
 		width:40%;
@@ -381,6 +382,9 @@ h3{
     .icons.wrapper{
         flex-direction: row;
     }
+	.icons img{
+		width:20%;
+	}
 	.contains img{
 		flex-wrap:wrap;
 		width:40%;
