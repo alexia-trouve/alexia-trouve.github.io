@@ -142,7 +142,7 @@ input[type=checkbox]:checked + label>span:last-of-type{
     object-fit: cover;
 }
 .contain{
-    gap:4rem;
+    gap:3rem;
     justify-content: space-evenly;
 }
 h2{
@@ -381,7 +381,7 @@ h3{
 	left:5rem;
     }
     .icons .wrapper img{
-	width:40%;
+	width:30%;
     }
 	.contains{
 		gap:none;
@@ -389,7 +389,7 @@ h3{
 	}
 	.contains img{
 		flex-wrap:wrap;
-		width:40%;
+		width:30%;
 	}
 		.footer{
 			font-size: 1.8rem;
