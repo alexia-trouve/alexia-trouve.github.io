@@ -43,7 +43,7 @@ nav{
     color:  #bac4b8;
     font-size: 1.8rem;
     font-weight: 400;
-    padding: 7rem 3.2rem;
+    padding: 2.4rem 5rem;
     border: 0.1rem solid #bac4b8;
     background-color: #000;
     border-radius: 2rem;
@@ -115,7 +115,7 @@ input[type=checkbox]:checked + label>span:last-of-type{
     justify-content: center;
 }
 .hero-banner h1{
-    font-size: clamp(6rem, 30px + 10vw, 8rem);
+    font-size: clamp(8rem, 30px + 10vw, 20rem);
     color: #bac4b8;
     font-weight: 300;
     line-height: 200px;
@@ -126,7 +126,7 @@ input[type=checkbox]:checked + label>span:last-of-type{
     color: #bac4b8;
     font-weight: 300;
     line-height: 72px;
-    margin-left: 10rem;
+    margin-left: 8rem;
     text-shadow: 1px 1px 1px #bac4b8;
 }
 /* ----A propos---- */
