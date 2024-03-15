@@ -307,6 +307,7 @@ h3{
     html{
         font-size: 50%;
     }
+	.d-none{ display:none}
     .logo{ display: none;}
 
     nav{
@@ -355,6 +356,11 @@ h3{
         flex-direction: column;
         gap:4rem;
     }
+	.wrapper img{
+		width:40%;
+	}
+	
+	
     .presentation{
         width:85vw;
     }
@@ -367,9 +373,9 @@ h3{
         background-color: #ff9060;
     }
     h2{
-        font-size: 6rem;
+        font-size: 5rem;
         text-shadow:none;
-	top:-4rem;
+	top:-5rem;
 	left:5rem;
     }
     .icons.wrapper{
