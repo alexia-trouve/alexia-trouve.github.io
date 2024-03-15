@@ -148,12 +148,12 @@ input[type=checkbox]:checked + label>span:last-of-type{
 h2{
     font-family: "SF Compact Rounded", serif;
     text-align: center;
-    font-size: 7.2rem;
+    font-size: 6.4rem;
     color: #ff9060;
     margin-bottom: 2rem;
     position: absolute;
     top:-8.5rem;
-    left:10rem;
+    left:7rem;
 
 }
 .img-portrait{
