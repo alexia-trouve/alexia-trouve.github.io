@@ -283,7 +283,7 @@ h3{
     margin-left: 5%;
 }
 .web img{
-    width:40%;
+    width:45%;
 }
 /* -----Contact----- */
 
@@ -319,14 +319,14 @@ h3{
     }
     #burger-menu{display:none;}
 	#burger-menu:checked ~ .menu{
-		top:4.5rem;
-		height: 80vh;
+	top:4.5rem;
+	height: 80vh;
 	}
     .menu{
         flex-direction: column;
-		position: absolute;
-		z-index:100;
-		width: 90vw;
+	position: absolute;
+	z-index:100;
+	width: 90vw;
         text-align: center;
         align-items: center;
         position: absolute;
