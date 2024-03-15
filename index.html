@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./Assets/img/logo.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="plant">
+        <header class="d-fl">
+            <nav class="d-fl" >
+                <a href="#home" class="logo"><p>a.</p></a>
+                <input type="checkbox" id="burger-menu">
+                <label for="burger-menu" class="menu-btn d-fl">
+                    <span class="burger"></span>
+			        <span class="burger"></span>
+			        <span class="burger"></span> 
+                </label>
+                <div class="menu d-fl">
+                    <a href="#A-propos">À propos</a>
+                    <a href="#Projects">Projets</a>
+                    <a href="#Contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <section id="HeroBanner">
+            <div class="hero-banner d-fl">
+                <h1>Portfolio<h1>
+                <p class="smaller">En HTML & CSS<p></p>
+            </div>
+        </section>
+    </div>
+    <main>
+        <section id="A-propos">
+            <h2>Bienvenue par ici!</h2>
+            <div class="projects-container">
+                    <div class="wrapper d-fl">
+                        <p class="presentation"> Bonjour 👋 Je suis Alexia, <span style="font-weight:800;">Designer UI</span> en formation chez Objectif3W.<br><br>
+                        Depuis Avril 2023, je me forme dans le domaine du développement et j'ai déjà suivi plusieurs formations pour apprendre à réaliser des applications mobiles (IOS) et application web (Wordpress).
+                        Aujourd'hui, j'ai également acquis les connaissances pour intégrer des applications web avec HTML/CSS.<br><br>
+                        Au cours de cette année de formation, afin d'étoffer ce portfolio, je travaille sur un projet en collaboration avec un réel client. Les missions sont les suivantes: Créer une identité visuelle, réaliser des maquettes dynamiques, intégrer le site web sur Wordpress et le déployer, puis de concevoir des supports de communication. <br><br>
+                        Après cette brève présentation, je vous invite à découvrir mon travail juste en dessous. N'hésitez pas à me contacter pour plus d'informations. Bonne visite 🙂
+                        </p>
+                        <div class="img img-portrait"></div>
+                    </div>
+            </div>
+        </section>
+        <section id="Projects">
+            <h2>Mes projets</h2>
+            <div class="projects-container d-fl">
+                <div class="project d-fl">
+                    <a href="#Nounouriture"><img src="./Assets/img/N.png" alt=""></a>
+                    <div class="project-infos">
+                        <p>Apple Foundation Program</p>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="project d-fl">
+                    <a href="#PauseCaf"><img src="./Assets/img/PC.png" alt=""></a>
+                    <div class="project-infos">
+                        <p>Projet personnel</p>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="project d-fl">
+                    <a href="#Naiade"><img src="./Assets/img/Naiade.png" alt=""></a>
+                    <div class="project-infos">
+                        <p>Hackeuses</p>
+                        <p>2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Nounouriture">
+            <div class="label">Nounouriture</div>
+            <div class="projects-container">
+                    <div class="wrapper d-fl">
+                        <div>
+                            <h3>Application conçue avec la technologie Swift (IOS).<br>
+                                Projet réalisé avec deux camarades pendant la formation "Apple foundation program" de l'école Simplon d'une durée de 1 mois.</h3>
+                            <p class="title">Ma mission</p>
+                            <ul class="text">
+                                <li>Trouver une idée d'application à partir du thème "Alimentation".</li>
+                                <li>Créer un logo et une chartre graphique.</li>
+                                <li>Réaliser des interfaces sur figma pour avoir une maquette dynamique.</li>
+                                <li>Coder et tester l'application.</li>
+                            </ul>
+                        </div>
+                        <div class="contain d-fl">
+                            <img src="./Assets/img/N-Ecran Navigation.png" alt="">
+                            <img src="./Assets/img/N-Ecran marché.png" alt="">
+                            <img src="./Assets/img/N-Ecran potager.png" alt="">
+                            <video src="./Assets/img/NVideo.mp4" autoplay="true"></video>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section id="PauseCaf">
+            <div class="label">Pause Caf'</div>
+                <div class="projects-container">
+                    <div class="wrapper d-fl">
+                        <div>
+                            <h3>Application conçue avec la technologie Swift (IOS).<br>
+                                Projet fictif que j'ai réalisée sur une période d'un mois afin de continuer à m'exercer sur la techno Swift.</h3>
+                            <p class="title">Ma mission</p>
+                            <ul class="text">
+                                <li>Trouver une idée d'application.</li>
+                                <li>Créer un logo et une chartre graphique.</li>
+                                <li>Réaliser des interfaces sur figma pour avoir une maquette dynamique.</li>
+                                <li>Coder et tester l'application.</li>
+                            </ul>
+                        </div>
+                        <div class="contain d-fl">
+                            <img src="./Assets/img/PC-Accueil.png" alt="">
+                            <img src="./Assets/img/PC-Playlists.png" alt="">
+                            <img src="./Assets/img/PC-Profil.png" alt="">
+                            <video src="./Assets/img/PauseCafVideo.mp4" type="video/mov" autoplay="true"></video>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="Naiade">
+            <div class="label">Naiade</div>
+                <div class="projects-container">
+                    <div class="wrapper d-fl">
+                        <div>
+                            <h3>Application e-commerce intégrée sur Wordpress & Elementor.<br>
+                                Projet de fin de formation "Hackeuses" de l'école Simplon pour but de valider le certificat.</h3>
+                            <p class="title">Ma mission</p>
+                            <ul class="text">
+                                <li>Trouver une idée d'entreprise fictive.</li>
+                                <li>Créer un logo et une chartre graphique.</li>
+                                <li>Réaliser des wireframes sur BalsamiQ.</li>
+                                <li>Intégration et déploiement du site.</li>
+                            </ul>
+                        </div>
+                        <div class="web contain d-fl">
+                            <img src="./Assets/img/Page-Accueil-Naiade.png" alt="">
+                            <img src="./Assets/img/Article-Naiade.png" alt="">
+                            <img src="./Assets/img/Equipe-Naiade.png" alt="">
+                            <img src="./Assets/img/Reservation-Naiade.png" alt="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer id="Contact">
+        <div class="projects-container">
+            <div class="icons wrapper d-fl">
+                <h2>CONTACTEZ-MOI</h2>
+                <a href="mailto:alexiatrouve@outlook.fr"><img src="./Assets/img/emailicon.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/alexia-trouvé-624719112"><img src="./Assets/img/linkedinicon.png" alt=""></a>
+                <a href="https://www.facebook.com/alexia.trouve"><img src="./Assets/img/facebookicon.png" alt=""></a>
+            </div>
+            <p class="mention">copyright © 2024, All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>.
