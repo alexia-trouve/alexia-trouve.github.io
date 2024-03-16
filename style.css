@@ -358,7 +358,7 @@ h3{
         gap:4rem;
 	    padding:5rem;
     }
-	.wrapper video{
+	.wrapper video, .wrapper img{
 		width:30%;
 	}
 	.web img{
