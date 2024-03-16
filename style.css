@@ -147,7 +147,7 @@ input[type=checkbox]:checked + label>span:last-of-type{
     justify-content: space-evenly;
 }
 h2{
-    font-size: 50%;
+    font-size: 6.4rem;
     color: #ff9060;
     margin-bottom: 2rem;
     position: absolute;
@@ -306,8 +306,8 @@ h3{
     html{
         font-size: 50%;
     }
-	.d-none{ display:none}
-    .logo{ display: none;}
+	.d-none{display:none;}
+    .logo{display: none;}
 
     nav{
         align-items: center;
@@ -375,7 +375,6 @@ h3{
     }
     h2{
         font-size: 3.2rem;
-        text-shadow:none;
 	top:-5rem;
 	left:5rem;
     }
