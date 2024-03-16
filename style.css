@@ -361,10 +361,10 @@ h3{
 	}
 	.web img{
 		width:60%;
-	
-    .presentation{
-        width:85vw;
-    }
+	}
+	presentation{
+		width:85vw;
+	}
     .img-portrait{
         border-radius: 50rem;
     }
