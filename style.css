@@ -381,7 +381,7 @@ h3{
 	width:50%;
     }
 	.contain{
-		gap:0;
+		gap:1rem;
 		justify-content:inherit;
 	}
 		.footer{
