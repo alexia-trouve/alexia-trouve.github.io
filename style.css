@@ -168,7 +168,7 @@ h2{
 .presentation{
     font-family: "Helvetica Neue", sans-serif;
     font-weight: normal;
-    width: 50%;
+    width: 50vw;
     font-size: 1.8rem;
     line-height: 2.7rem;
     color: #bac4b8;
@@ -352,7 +352,7 @@ h3{
         margin: 0;
     }
 	.presentation {
-		width:none;
+		width:85vw;
 	}
     .wrapper{
         flex-direction: column;
