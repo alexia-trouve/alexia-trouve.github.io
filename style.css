@@ -351,7 +351,7 @@ h3{
         margin: 0;
     }
 	.presentation {
-		width:85vw;
+		width:75vw;
 	}
     .wrapper{
         flex-direction: column;
@@ -381,8 +381,8 @@ h3{
 	width:50%;
     }
 	.contain{
-		gap:none;
-		justify-content:none;
+		gap:0;
+		justify-content:inherit;
 	}
 		.footer{
 			font-size: 1.8rem;
