@@ -359,7 +359,7 @@ h3{
 	    padding:5rem;
     }
 	.wrapper video{
-		width:26%;
+		width:30%;
 	}
 	.web img{
 		width:60%;
@@ -378,15 +378,11 @@ h3{
 	left:5rem;
     }
     .icons img{
-	width:70%;
+	width:50%;
     }
-	.contains{
+	.contain{
 		gap:none;
-		justify-content:center;
-	}
-	.contains img{
-		flex-wrap:wrap;
-		width:30%;
+		justify-content:none;
 	}
 		.footer{
 			font-size: 1.8rem;
