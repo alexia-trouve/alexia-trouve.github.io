@@ -288,6 +288,10 @@ h3{
 #Contact{
     position: relative;
 }
+.icons{
+	justify-content:space-evenly;
+	margin:10rem;
+}
 .icons img{
     width:64px;
 }
