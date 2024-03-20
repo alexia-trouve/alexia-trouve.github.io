@@ -396,4 +396,11 @@ h2{
 }
 @media screen and (max-width:370px){
 	.img{display:none}
+	 h2{
+	left:1.5rem;
+    }
+	.web{
+    width:100%;
+    margin-left: 0;
+}
 }
