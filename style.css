@@ -28,7 +28,7 @@ nav{
     justify-content: space-between;
     top:3rem;
     left:3vw;
-	position: fixed;
+	position: sticky;
     z-index: 99;
 }
 .logo p{
