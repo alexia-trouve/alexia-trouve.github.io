@@ -27,7 +27,7 @@ nav{
     position: absolute;
     justify-content: space-between;
     top:3rem;
-    left:4vw;
+    left:3.5vw;
     z-index: 99;
 }
 .logo p{
