@@ -26,9 +26,8 @@ nav{
     border-radius: 2rem;
     position: absolute;
     justify-content: space-between;
-    top:10rem;
-    left:3vw;
-	position: sticky;
+    top:3rem;
+    left:4vw;
     z-index: 99;
 }
 .logo p{
